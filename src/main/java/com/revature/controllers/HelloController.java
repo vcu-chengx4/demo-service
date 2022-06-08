@@ -23,4 +23,8 @@ public class HelloController {
 	public String sayBye() {
 		return "Bye!";
 	}
+	@GetMapping("/noob")
+	public String sayNoob() {
+		return "noob!";
+	}
 }
